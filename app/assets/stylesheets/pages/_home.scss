@@ -1,1 +1,218 @@
-// Specific CSS for your home-page
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: white;
+}
+
+#wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column!important;
+}
+
+.jumbo-inner  {
+  width: 100%;
+  min-height: 600px;
+  padding: 5rem 0 7rem;
+}
+
+@media (min-width: 768px) {
+  .jumbo-inner {
+      padding: 4rem 0 1rem;
+  }
+}
+
+.jumbo-hero {
+    padding: 0 15px;
+    height: 100vh;
+}
+
+.hero-title {
+  max-width: 610px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: .04em;
+  padding: 10px;
+}
+
+.hero-subtitle {
+  max-width: 610px;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: .04em;
+  margin-top: 60px;
+}
+
+.hero-logo {
+  margin: 0 0 30px;
+}
+
+.zoquant-logo {
+  width: 238px;
+  height: 52.5px;
+}
+
+@media (min-width: 768px) {
+  .zoquant-logo {
+    width: 476px;
+    height: 105px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-logo {
+      margin: 0 0 6px;
+  }
+}
+
+.mobile-margin {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .mobile-margin {
+    margin-top: 20px;
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+}
+
+.bg-light {
+    background-color: #e9ecef!important;
+}
+
+.related-block {
+  padding: 0px 18px;
+}
+
+@media (min-width: 992px) {
+  .related-block {
+    padding: 0rem 0 3.5625rem;
+  }
+}
+
+.container.wide {
+  max-width: 1170px;
+}
+
+.related-card-list {
+    box-shadow: 0 12px 17px white, inset 0 4px 2px white;
+    background-color: white !important;
+    padding: 32px 22px;
+}
+
+.related-card {
+    position: relative;
+    box-shadow: 0 12px 17px rgba(0,32,46,.04),
+    inset 0 4px 2px rgba(255,255,255,.75);
+    background-color: #e9ecef;
+    padding: 32px 22px;
+}
+
+.related-card:hover {
+  -webkit-transform: scale(1.01);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+}
+
+@media (min-width: 992px) {
+  .related-card {
+      padding: 32px 63px;
+  }
+}
+
+@media (min-width: 768px) {
+  .related-card-list>li {
+      width: 50%;
+      padding: 0 0 12.5rem;
+      display: list-item;
+  }
+  .related-card-list>li:nth-of-type(even) {
+      padding: 12.5rem 0 0;
+  }
+}
+
+.ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.get-in-touch-section {
+  max-width: 710px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: .038em;
+}
+
+.h2, h2 {
+    font-size: 1.625rem;
+}
+
+p {
+  line-height: 1.75;
+}
+
+.btn-ghost {
+  color: black;
+  border: 1px solid black;
+  padding: 8px 24px;
+  border-radius: 50px;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+  color: orange;
+  border: 1px solid orange;
+  background-color: #FFF2DD;
+}
+
+.home-arrow {
+  visibility: hidden
+}
+
+@media screen and (max-width: 600px) {
+  .home-arrow {
+    margin-top: 100px;
+    visibility: visible;
+  }
+
+  .zoquant-logo {
+    margin-top: 100px
+  }
+}
+
+.scroll {
+  color: black;
+  &:active {
+    color: orange;
+  }
+}

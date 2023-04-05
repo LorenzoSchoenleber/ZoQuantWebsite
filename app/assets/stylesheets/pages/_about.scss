@@ -1,0 +1,38 @@
+.jumbo-hero-about {
+    padding: 0 15px;
+    height: 240px;
+}
+
+.jumbo-inner-about  {
+  width: 100%;
+  min-height: 240px;
+  padding: 5rem 0 1rem;
+}
+
+.about-section {
+  max-width: 710px;
+}
+
+@media screen and (max-width: 600px) {
+  .page-hero .container {
+      min-height: 660px;
+      padding-top: 0px;
+  }
+
+  .zoquant-logo-about {
+    margin-top: 50px
+  }
+}
+
+.zoquant-logo-about {
+  width: 238px;
+  height: 52.5px;
+}
+
+@media (min-width: 768px) {
+  .zoquant-logo-about {
+    width: 476px;
+    height: 105px;
+  }
+}
+
